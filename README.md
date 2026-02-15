@@ -251,8 +251,7 @@ use_raw_addr=true
 
 ### IDA prerequisites
 
-IDA 7.x branch is required. For older versions (6.9x) please see archived
-release ``ida6.9x``.
+IDA 9.2+ is required. For older versions please checkout project prior to ``ida9.2`` tag from available ``Tags``.
 
 ### Install the IDA extension
 
@@ -379,10 +378,9 @@ Loaded python3 plugin 'retsync'
 
 ### Build the WinDbg extension
 
-Either use pre-built binaries or use the Visual Studio 2017
-solution provided in ``ext_windbg``, (see
-https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2017-relnotes if
-needed).
+Use the Visual Studio 2017
+solution provided in ``ext_windbg``. Visual Studio [Community Edition](https://visualstudio.microsoft.com/fr/vs/community/)
+2017 and 2026 were tested successfully (versions in between should work too).
 
 This will build the `x64\release\sync.dll` file.
 
